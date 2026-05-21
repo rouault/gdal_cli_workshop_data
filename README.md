@@ -24,3 +24,6 @@ Dataset used by workshop at https://github.com/rouault/gdal_cli_workshop
   Source:
 
   ``gdal raster clip /vsicurl/https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm.vrt dem.tif --bbox 399960,4990200,609780,5200020 --bbox-crs EPSG:32634 --co COMPRESS=LZW --co TILED=YES --co PREDICTOR=2``
+
+- ne_10m_admin_1_states_provinces.zip from https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+
