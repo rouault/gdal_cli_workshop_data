@@ -18,3 +18,9 @@ Dataset used by workshop at https://github.com/rouault/gdal_cli_workshop
   Subset of https://download.geofabrik.de/europe/romania-260516.osm.pbf generated with:
 
   ``osmium extract -b 20.99713,45.62764,21.51496,45.89526 romania-260516.osm.pbf -o timisoara.osm.pbf``
+
+- dem.tif
+
+  Source:
+
+  ``gdal raster clip /vsicurl/https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm.vrt dem.tif --bbox 399960,4990200,609780,5200020 --bbox-crs EPSG:32634 --co COMPRESS=LZW --co TILED=YES --co PREDICTOR=2``
